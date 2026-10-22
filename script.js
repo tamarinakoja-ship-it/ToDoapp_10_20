@@ -19,7 +19,7 @@ function addTodo() {
 
   // 未入力の場合はアラート
   if (text === '') {
-    alert('タスクを入力してください');
+    alert('タスクを入力してくださいね！');
     return;
   }
 
