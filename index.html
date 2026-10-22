@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ToDo App</title>
+  <!-- CSSファイルの読み込み -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="todo-container">
+    <!-- タイトル（授業でカスタマイズしやすい箇所） -->
+    <h1>My ToDo List</h1>
+
+    <!-- タスク入力エリア -->
+    <div class="input-group">
+      <input type="text" id="todo-input" placeholder="新しいタスクを入力...">
+      <button class="add-btn" id="add-button">追加する</button>
+    </div>
+
+    <!-- ToDoリスト本体 -->
+    <ul class="todo-list" id="todo-list">
+      <!-- JavaScriptで動的にタスクが追加されます -->
+    </ul>
+
+    <!-- タスクが空の時のメッセージ -->
+    <p class="empty-message" id="empty-message">タスクはまだありません</p>
+  </div>
+
+  <!-- JavaScriptファイルの読み込み -->
+  <script src="script.js"></script>
+</body>
+</html>
